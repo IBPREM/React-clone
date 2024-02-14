@@ -6,6 +6,9 @@ import ijsblokjes from './assets/ijsblokjes.jpg';
 import Product from "./components/Product.jsx";
 
 function App() {
+    function logClick(){
+        console.log(""You clicked")
+    }
     return (
         <>
             <nav>
@@ -25,7 +28,7 @@ function App() {
             <header>
                 <h1>Fruit perfection</h1>
                 <button type="button"
-                        onClick={() => console.log("Jij wilt shoppen!")}
+                        onClick={logClick}
                 >
                     Shop nu
                 </button>
