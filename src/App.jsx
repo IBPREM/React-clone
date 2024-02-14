@@ -7,7 +7,7 @@ import Product from "./components/Product.jsx";
 
 function App() {
     function logClick(){
-        console.log(""You clicked")
+        console.log("You clicked")
     }
     return (
         <>
